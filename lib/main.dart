@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tp_5_part2/screens/home_screen.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:tp_5_part2/screens/login_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }
